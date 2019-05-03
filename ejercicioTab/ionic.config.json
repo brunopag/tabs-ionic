@@ -1,0 +1,7 @@
+{
+  "name": "ejercicioTab",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

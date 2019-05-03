@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            Home
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <button ion-item detail-none (click)="verDetalles(personaje)" *ngFor="let personaje of personajes">
+              <ion-avatar item-start>
+                  <img src="{{ personaje.img }}">
+              </ion-avatar>
+              <h2>{{ personaje.nombre }}</h2>
+              <p>{{ personaje.titulo }}</p>
+          </button>
+    </ion-list>
+</ion-content>
